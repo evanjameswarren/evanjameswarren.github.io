@@ -63,4 +63,9 @@ Projected unit demand for the upcoming fiscal cycle shows low summer baseline (~
 
 ---
 
+> **Disclaimer & Data Notes:**  
+> *This case study is an educational project developed for portfolio demonstration purposes. All product names, trademarks, and brand references (Burton Snowboards) belong to their respective owners and do not imply official endorsement or affiliation. The historical sales dataset used in this model is synthetic data generated via AI predictive modeling extrapolated from quarterly retail sales trends, with a 5% random noise factor applied to simulate real-world demand stochasticity.*
+
+---
+
 [← Back to Main Portfolio](../index.html)
