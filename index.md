@@ -9,24 +9,24 @@ Welcome! I am an Industrial Engineering student focused on systems logistics, op
 
 * **Operations Research & Optimization:** Linear Programming, Network Planning, Fleet Sizing, Hungarian Method Algorithm.
 * **Logistics & Supply Chain:** Facility Location, Queuing Theory, Hub Location Models, Inventory Optimization.
-* **Data & Analytics:** Time-Series Analysis (Holt-Winters), Seasonality & Error Metrics (MAPE, RMSE), Statistical Modeling.
+* **Data & Analytics:** Time-Series Analysis (Multiplicative Holt-Winters), Seasonality & Error Metrics (MAPE, MAE, MSE), Statistical Modeling.
 * **Tools & Software:** Python, MATLAB, Excel / Solver.
 
 ---
 
 ## Priority Projects
 
-### 1. [Campus Electric Scooter Fleet Rollout](./projects/scooter-fleet.md)
+### 1. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
+* **Keywords:** Time Series Analysis, Multiplicative Holt-Winters, Inventory Optimization, MAPE (9%)
+* **Summary:** Developed a 9-year Holt-Winters exponential smoothing model (2017–2026) for Burton Custom X unit sales. Optimized level, trend, and seasonal parameters $(\alpha, \beta, \gamma)$ to achieve a **9% MAPE**, optimizing procurement lead-times and safety stock allocation.
+
+### 2. [Campus Electric Scooter Fleet Rollout](./projects/scooter-fleet.md)
 * **Keywords:** Systems Logistics, Fleet Sizing, Network Planning, Operational Modeling
 * **Summary:** Modeled campus-wide charging & hub logistics to optimize fleet sizing and repositioning strategies, ensuring maximum scooter availability while minimizing operational rebalancing costs.
 
-### 2. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
+### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
 * **Keywords:** Operations Research, Linear Programming, Algorithm Design, Python/MATLAB
 * **Summary:** Implemented a custom algorithmic solution for bipartite matching and assignment problems, optimizing resource allocation under constraints.
-
-### 3. [Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
-* **Keywords:** Time Series Analysis, Inventory Optimization, Holt-Winters, MAPE
-* **Summary:** Developed a time-series forecasting model integrating seasonality and trend smoothing to optimize inventory demand planning and minimize stockouts.
 
 ---
 
