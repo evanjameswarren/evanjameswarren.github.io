@@ -1,3 +1,9 @@
+---
+layout: default
+title: Burton Custom X Snowboard Sales Forecasting Model
+logo: /assets/images/snowboard_excel_model_screenshot.png
+---
+
 # Burton Custom X Snowboard Sales Forecasting Model
 
 **Domain:** Time Series Analysis | Multiplicative Holt-Winters | Inventory Demand Planning  
