@@ -20,9 +20,9 @@ Welcome! I am an Industrial Engineering student focused on systems logistics, op
 * **Keywords:** Time Series Analysis, Multiplicative Holt-Winters, Inventory Optimization, MAPE (9%)
 * **Summary:** Developed a 9-year Holt-Winters exponential smoothing model (2017–2026) for Burton Custom X unit sales. Optimized level, trend, and seasonal parameters $(\alpha, \beta, \gamma)$ to achieve a **9% MAPE**, optimizing procurement lead-times and safety stock allocation.
 
-### 2. [Campus Electric Scooter Fleet Rollout](./projects/scooter-fleet.md)
-* **Keywords:** Systems Logistics, Fleet Sizing, Network Planning, Operational Modeling
-* **Summary:** Modeled campus-wide charging & hub logistics to optimize fleet sizing and repositioning strategies, ensuring maximum scooter availability while minimizing operational rebalancing costs.
+### 2. [CSUEB Electric Scooter Fleet Rollout](./projects/scooter-fleet.md)
+* **Keywords:** Systems Design, Engineering Economics, Multidisciplinary Logistics, NPV ($32k–$588k)
+* **Summary:** Engineered a 130-vehicle micro-mobility system for Cal State East Bay. Integrated multi-variable financial cash flow modeling (MARR, inflation, loan annuities), 5 Kuhmute smart hubs (100 charging ports), Joyride IoT geofencing, and multi-agency regulatory compliance.
 
 ### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
 * **Keywords:** Operations Research, Linear Programming, Algorithm Design, Python/MATLAB
