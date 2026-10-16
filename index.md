@@ -7,7 +7,7 @@ logo: /assets/images/calc3_vector_visuals.png
 # Evan Warren
 **Industrial Engineering Portfolio**
 
-Welcome to my website! I built this website to showcase some fun projects I have worked on along my education journey, both for courses and for fun. I'm so grateful for the many incredible professors I have had over the years. Through thousands of hours in the library, I have attempted to understand the world of math, physics, economics, engineering, and computer science, and I hope this website displays that. Thanks for visiting!
+Welcome to my website! I built this website to showcase some projects I have worked on along my education journey, both for courses and for fun. I'm so grateful for the many incredible professors I have had over the years. Through thousands of hours in the library, I have attempted to understand the world of math, physics, economics, engineering, and computer science, and I hope this website displays that. Thanks for visiting!
 
 ---
 

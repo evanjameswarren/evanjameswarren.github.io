@@ -7,7 +7,8 @@ logo: /assets/images/snowboard_excel_model_screenshot.png
 # Burton Custom X Snowboard Sales Forecasting Model
 
 **Domain:** Time Series Analysis | Multiplicative Holt-Winters | Inventory Demand Planning  
-**Tools & Frameworks:** Excel Solver, Holt-Winters Exponential Smoothing, Error Metrics (MAPE, MAE, MSE)
+**Tools & Frameworks:** Excel Solver, Holt-Winters Exponential Smoothing, Error Metrics (MAPE, MAE, MSE)  
+**Project Team:** Evan Warren and Camari Randolph
 
 > **Executive Impact:** Developed a 9-year multiplicative Holt-Winters forecasting model for Burton Custom X unit sales (2017–2026), achieving a **9% Mean Absolute Percentage Error (MAPE)** and reducing forecast variance across peak winter sales windows.
 
