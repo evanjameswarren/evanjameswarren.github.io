@@ -32,9 +32,9 @@ Welcome to my website! I built this website to showcase some fun projects I have
 
 ## Additional Projects & Technical Explorations
 
+* **[Multivariable Calculus Vector Field Visualizations](./projects/calc3-vector-fields.md):** Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
 * **Dynamic Fish Population Growth & Harvesting Model:** Modeling sustainable yield and population dynamics using differential equations.
 * **Tractor Lifecycle Economic Replacement Analysis:** Engineering economics evaluation for optimal asset replacement timing based on maintenance cost curves.
-* **Multivariable Calculus Vector Field Visualizations:** MATLAB-rendered 3D vector fields for fluid dynamics and gradient visualization.
 
 ---
 
