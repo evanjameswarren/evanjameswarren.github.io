@@ -1,3 +1,9 @@
+---
+layout: default
+title: Evan Warren | Industrial Engineering Portfolio
+logo: /assets/images/calc3_vector_visuals.png
+---
+
 # Evan Warren
 **Industrial Engineering Portfolio**
 
@@ -7,35 +13,39 @@ Welcome to my website! I built this website to showcase some fun projects I have
 
 ## Core Technical Skills
 
-* **Operations Research & Optimization:** Linear Programming, Network Planning, Fleet Sizing, Hungarian Method Algorithm.
-* **Logistics & Supply Chain:** Facility Location, Queuing Theory, Hub Location Models, Inventory Optimization.
-* **Data & Analytics:** Time-Series Analysis (Multiplicative Holt-Winters), Seasonality & Error Metrics (MAPE, MAE, MSE), Statistical Modeling.
-* **Tools & Software:** Python, MATLAB, Excel / Solver.
+* **Systems Engineering & Engineering Economics:** Techno-Economic Feasibility (NPV, AEC, MARR, MACRS After-Tax Proformas), Lifecycle Replacement Analysis, Multi-Variable Sensitivity Modeling, Fleet & Infrastructure Sizing.
+* **Operations Research & Algorithm Design:** Combinatorial Optimization, Bipartite Matching (Hungarian Method), Linear Programming, Vectorized Logical Masking & Bit-Flipping Heuristics.
+* **Data Analytics, Statistics & Forecasting:** Design of Experiments (DOE / ANOVA), Time-Series Forecasting (Multiplicative Holt-Winters), Error Metrics (MAPE, MAE, MSE), Experimental Sensor Data Processing & Numerical Integration.
+* **Tools & Software:** MATLAB (Symbolic Math, Live Scripts, Vectorized Computing), Excel (Solver, Dynamic Financial Proformas), Minitab, Python.
 
 ---
 
 ## Priority Projects
 
-### 1. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
+### 1. [Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model](./projects/scooter-fleet.md)
+* **Keywords:** Systems Engineering, Engineering Economics, Multidisciplinary Logistics, 8% MARR (`$168.5k` NPV | `$42.2k` AEC)
+* **Summary:** Modeled an end-to-end 130-vehicle electric scooter rollout for Cal State East Bay across 10 interconnected workbook sheets. Evaluated a hybrid revenue structure (`$180/yr` opt-in fee + `$0.50/mile` monthly usage fee) at 12% student adoption (864 users), achieving a verified **`$168,525.43` 5-Year NPV** and **`$42,208.28` AEC** with Year 3 payback and a 2D sensitivity range spanning **`$52,913` to `$1,094,688`**.
+
+### 2. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
+* **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (`0.0091s` on $100 \times 100$)
+* **Summary:** Built a modular MATLAB solver from scratch for bipartite matching and assignment problems using Assembly-inspired binary bit-flipping masks, custom tie-breaker heuristics, and $\theta$-matrix adjustments. Solves $100 \times 100$ matrices in **9.1 ms** with verified global optimality against MATLAB's `matchpairs()`.
+
+### 3. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
 * **Keywords:** Time Series Analysis, Multiplicative Holt-Winters, Inventory Optimization, MAPE (9%)
 * **Summary:** Developed a 9-year Holt-Winters exponential smoothing model (2017–2026) for Burton Custom X unit sales. Optimized level, trend, and seasonal parameters $(\alpha, \beta, \gamma)$ to achieve a **9% MAPE**, optimizing procurement lead-times and safety stock allocation.
-
-### 2. [Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model](./projects/scooter-fleet.md)
-* **Keywords:** Systems Design, Engineering Economics, Multidisciplinary Logistics, NPV (`$168.5k – $1.09M`)
-* **Summary:** Engineered a 130-vehicle micro-mobility system for Cal State East Bay. Modeled a hybrid pricing model (`$180/yr` fee + `$0.50/mile`) yielding a baseline **`$168,525` 5-Year NPV** and **`$42,208` AEC**, backed by 5 Kuhmute smart hubs (100 charging ports), Joyride IoT geofencing, and a 2D sensitivity matrix (`$52.9k` to `$1.09M`).
-
-### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
-* **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (`0.0091s` on $100 \times 100$)
-* **Summary:** Built a modular MATLAB solver from scratch for bipartite matching and assignment problems using vectorized logical masking, custom tie-breaker heuristics, and $\theta$-matrix adjustments. Solves $100 \times 100$ matrices in **9.1 ms** with verified global optimality against MATLAB's `matchpairs()`.
 
 ---
 
 ## Additional Projects & Technical Explorations
 
-* [**Tractor Lifecycle Economic Replacement Analysis**](./projects/tractor-replacement.md): Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
-* [**Automated Material Stress-Strain Curve Analyzer**](./projects/stress-strain-analysis.md): MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
-* [**Multivariable Calculus Vector Field Visualizations**](./projects/calc3-vector-fields.md): Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
-* **Dynamic Fish Population Growth & Harvesting Model:** Modeling sustainable yield and population dynamics using differential equations.
+### [Tractor Lifecycle Economic Replacement Analysis](./projects/tractor-replacement.md)
+* Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
+
+### [Automated Material Stress-Strain Curve Analyzer](./projects/stress-strain-analysis.md)
+* MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
+
+### [Multivariable Calculus Vector Field Visualizations](./projects/calc3-vector-fields.md)
+* Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
 
 ---
 

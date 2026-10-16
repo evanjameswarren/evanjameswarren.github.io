@@ -13,7 +13,7 @@ logo: /assets/images/tractor_image1.png
 > **Project Overview & Team Attribution:** Completed as a collaborative Engineering Economics group project with **Idrissa Dembele** and **Pili Fonua**, this study evaluates a real-world agricultural capital equipment replacement decision: purchasing a used **2010 Case IH Magnum 215 (`$56,320`)** with a recently rebuilt transmission versus a nearly new **2024 Case IH Magnum 250 AFS Connect (`$198,500`)**. Across a 10-year economic lifecycle at 600 operating hours/year (`15% MARR`, `40% Tax Rate`), the 2010 Magnum 215 outperforms the 2024 model by **`$21,621/year` in Annual Equivalent Cost (AEC)** (`-$36,123/yr` vs. `-$57,744/yr`).
 
 ### Project Source File
-* [📥 Download Original Engineering Economics Model (`TractorComparison.xlsx`)](https://github.com/evanjameswarren/evanjameswarren.github.io/raw/main/Tractor/TractorComparison.xlsx)
+* [📥 Download Original Engineering Economics Model (`TractorComparison.xlsx`)](https://github.com/evanjameswarren/evanjameswarren.github.io/raw/main/Tractor%20Comparison/TractorComparison.xlsx)
 
 ---
 
