@@ -25,8 +25,8 @@ Welcome! I am an Industrial Engineering student focused on systems logistics, op
 * **Summary:** Engineered a 130-vehicle micro-mobility system for Cal State East Bay. Modeled a hybrid pricing model ($180/yr fee + $0.50/mile) yielding a baseline **$185,449 5-Year NPV** and **$46,447 AEC**, backed by 5 Kuhmute smart hubs (100 charging ports), Joyride IoT geofencing, and a 2D sensitivity matrix ($67k to $1.12M).
 
 ### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
-* **Keywords:** Operations Research, Linear Programming, Algorithm Design, Python/MATLAB
-* **Summary:** Implemented a custom algorithmic solution for bipartite matching and assignment problems, optimizing resource allocation under constraints.
+* **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (`0.0091s` on $100 \times 100$)
+* **Summary:** Built a modular MATLAB solver from scratch for bipartite matching and assignment problems using vectorized logical masking, custom tie-breaker heuristics, and $\theta$-matrix adjustments. Solves $100 \times 100$ matrices in **9.1 ms** with verified global optimality against MATLAB's `matchpairs()`.
 
 ---
 
