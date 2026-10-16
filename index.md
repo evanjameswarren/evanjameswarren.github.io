@@ -1,7 +1,7 @@
 # Evan Warren
 **Industrial Engineering Portfolio**
 
-Welcome! I am an Industrial Engineering student focused on systems logistics, operations research, and time-series forecasting. Below are key technical projects demonstrating data-driven problem solving, mathematical optimization, and operational modeling.
+Welcome to my website! I built this website to showcase some fun projects I have worked on along my education journey, both for courses and for fun. I'm so grateful for the many incredible professors I have had over the years. Through thousands of hours in the library, I have attempted to understand the world of math, physics, engineering, and computer science, and I hope this website displays that. Thanks for visiting!
 
 ---
 
@@ -21,8 +21,8 @@ Welcome! I am an Industrial Engineering student focused on systems logistics, op
 * **Summary:** Developed a 9-year Holt-Winters exponential smoothing model (2017–2026) for Burton Custom X unit sales. Optimized level, trend, and seasonal parameters $(\alpha, \beta, \gamma)$ to achieve a **9% MAPE**, optimizing procurement lead-times and safety stock allocation.
 
 ### 2. [CSUEB Electric Scooter Fleet Rollout](./projects/scooter-fleet.md)
-* **Keywords:** Systems Design, Engineering Economics, Multidisciplinary Logistics, NPV ($185k – $1.12M)
-* **Summary:** Engineered a 130-vehicle micro-mobility system for Cal State East Bay. Modeled a hybrid pricing model ($180/yr fee + $0.50/mile) yielding a baseline **$185,449 5-Year NPV** and **$46,447 AEC**, backed by 5 Kuhmute smart hubs (100 charging ports), Joyride IoT geofencing, and a 2D sensitivity matrix ($67k to $1.12M).
+* **Keywords:** Systems Design, Engineering Economics, Multidisciplinary Logistics, NPV (`$185k – $1.12M`)
+* **Summary:** Engineered a 130-vehicle micro-mobility system for Cal State East Bay. Modeled a hybrid pricing model (`$180/yr` fee + `$0.50/mile`) yielding a baseline **`$185,449` 5-Year NPV** and **`$46,447` AEC**, backed by 5 Kuhmute smart hubs (100 charging ports), Joyride IoT geofencing, and a 2D sensitivity matrix (`$67k` to `$1.12M`).
 
 ### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
 * **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (`0.0091s` on $100 \times 100$)
