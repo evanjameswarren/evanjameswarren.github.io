@@ -1,21 +1,21 @@
 ---
 layout: default
-title: CSUEB Electric Scooter Fleet Rollout - Multidisciplinary Systems Design
+title: "Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model"
 logo: /assets/images/scooter_system_architecture.png
 ---
 
-# CSUEB Electric Scooter Fleet Rollout
+# Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model
 
 **Domain:** Systems Logistics | Financial Engineering | IoT Infrastructure | Regulatory Compliance  
 **Tools & Frameworks:** Operations Research, Engineering Economics (NPV/AEC/MARR), Joyride IoT, Kuhmute Smart Hubs  
 **Project Team:** Evan Warren, Harman Singh, Camari Randolph, and Andrew Ibrahim
 
-> **Executive Impact:** Completed as a collaborative Industrial & Systems Engineering project with **Harman Singh**, **Camari Randolph**, and **Andrew Ibrahim**, this study models an end-to-end 130-vehicle electric scooter micro-mobility rollout at Cal State East Bay (2026–2031). Under a baseline 12% student adoption rate (864 opt-in users), the system achieves a verified **`$168,525.43` Net Present Value (NPV)** and **`$42,208.28` Annual Equivalent Worth (AEC)** at an 8% MARR. Revenue is driven by a hybrid pricing structure combining a **`$180.00` annual membership fee** with a **`$0.50/mile` monthly usage fee**, supported by a 60-month discounted cash flow schedule and a 2D sensitivity matrix validating positive returns from **`$52.9k` to `$1.09M` NPV**.  
+> **Project Overview:** Completed as a collaborative Industrial & Systems Engineering project, this study models an end-to-end 130-vehicle electric scooter micro-mobility rollout at Cal State East Bay (2026–2031). Under a baseline 12% student adoption rate (864 opt-in users), the system achieves a verified **`$168,525.43` Net Present Value (NPV)** and **`$42,208.28` Annual Equivalent Worth (AEC)** at an 8% MARR. Revenue is driven by a hybrid pricing structure combining a **`$180.00` annual membership fee** with a **`$0.50/mile` monthly usage fee**, supported by a 60-month discounted cash flow schedule and a 2D sensitivity matrix validating positive returns from **`$52.9k` to `$1.09M` NPV**.  
 >  
-> **Note:** *Static charts and screenshots on a webpage cannot do this interconnected 10-sheet systems model justice—I highly encourage you to download and explore the actual Excel workbook below!*
+> *This project is best explained by taking a look at the Excel file directly, please feel free to download it below.*
 
 ### Project Resource & Full Workbook
-* [📥 **Download Complete 10-Sheet Financial & Systems Excel Model (`INDE 460 - Cost Final Project.xlsx`)**](https://github.com/evanjameswarren/evanjameswarren.github.io/raw/main/Electic%20Scooter%20Fleet/INDE%20460%20-%20Cost%20Final%20Project.xlsx)
+* [📥 **Download Project Excel File (`East Bay Project Preposal.xlsx`)**](https://github.com/evanjameswarren/evanjameswarren.github.io/raw/main/Electic%20Scooter%20Fleet/East%20Bay%20Project%20Preposal.xlsx)
 
 ---
 
