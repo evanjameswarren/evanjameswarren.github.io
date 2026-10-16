@@ -52,4 +52,4 @@ Welcome to my website! I built this website to showcase some fun projects I have
 ## Contact & Links
 
 * **GitHub:** [github.com/evanjameswarren](https://github.com/evanjameswarren)
-* **LinkedIn:** [LinkedIn Profile](#)
+* **LinkedIn:** [linkedin.com/in/evan-warren-b161271b8](https://www.linkedin.com/in/evan-warren-b161271b8)
