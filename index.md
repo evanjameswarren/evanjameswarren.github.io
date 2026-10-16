@@ -32,9 +32,9 @@ Welcome to my website! I built this website to showcase some fun projects I have
 
 ## Additional Projects & Technical Explorations
 
-* **[Tractor Lifecycle Economic Replacement Analysis](./projects/tractor-replacement.md):** Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
-* **[Automated Material Stress-Strain Curve Analyzer](./projects/stress-strain-analysis.md):** MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
-* **[Multivariable Calculus Vector Field Visualizations](./projects/calc3-vector-fields.md):** Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
+* [**Tractor Lifecycle Economic Replacement Analysis**](./projects/tractor-replacement.md): Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
+* [**Automated Material Stress-Strain Curve Analyzer**](./projects/stress-strain-analysis.md): MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
+* [**Multivariable Calculus Vector Field Visualizations**](./projects/calc3-vector-fields.md): Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
 * **Dynamic Fish Population Growth & Harvesting Model:** Modeling sustainable yield and population dynamics using differential equations.
 
 ---
