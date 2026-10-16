@@ -7,27 +7,27 @@ logo: /assets/images/calc3_vector_visuals.png
 # Evan Warren
 **Industrial Engineering Portfolio**
 
-Welcome to my website! I built this website to showcase some fun projects I have worked on along my education journey, both for courses and for fun. I'm so grateful for the many incredible professors I have had over the years. Through thousands of hours in the library, I have attempted to understand the world of math, physics, engineering, and computer science, and I hope this website displays that. Thanks for visiting!
+Welcome to my website! I built this website to showcase some fun projects I have worked on along my education journey, both for courses and for fun. I'm so grateful for the many incredible professors I have had over the years. Through thousands of hours in the library, I have attempted to understand the world of math, physics, economics, engineering, and computer science, and I hope this website displays that. Thanks for visiting!
 
 ---
 
 ## Core Technical Skills
 
-* **Systems Engineering & Engineering Economics:** Techno-Economic Feasibility (NPV, AEC, MARR, MACRS After-Tax Proformas), Lifecycle Replacement Analysis, Multi-Variable Sensitivity Modeling, Fleet & Infrastructure Sizing.
-* **Operations Research & Algorithm Design:** Combinatorial Optimization, Bipartite Matching (Hungarian Method), Linear Programming, Vectorized Logical Masking & Bit-Flipping Heuristics.
-* **Data Analytics, Statistics & Forecasting:** Design of Experiments (DOE / ANOVA), Time-Series Forecasting (Multiplicative Holt-Winters), Error Metrics (MAPE, MAE, MSE), Experimental Sensor Data Processing & Numerical Integration.
-* **Tools & Software:** MATLAB (Symbolic Math, Live Scripts, Vectorized Computing), Excel (Solver, Dynamic Financial Proformas), Minitab, Python.
+* **Systems Engineering & Economics:** Cash Flow Analysis (NPV, AEC, MARR), Equipment Replacement Analysis, Sensitivity Modeling, Fleet & Infrastructure Planning.
+* **Operations Research & Optimization:** Linear Programming, Assignment Problems (Hungarian Method), Network Planning, Logical Matrix Modeling.
+* **Data Analytics, Statistics & Forecasting:** Design of Experiments (DOE / ANOVA), Time-Series Forecasting (Holt-Winters), Error Metrics (MAPE, MAE, MSE), Lab Data Processing.
+* **Tools & Software:** MATLAB, Excel / Solver, Minitab, Python.
 
 ---
 
 ## Priority Projects
 
 ### 1. [Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model](./projects/scooter-fleet.md)
-* **Keywords:** Systems Engineering, Engineering Economics, Multidisciplinary Logistics, 8% MARR (`$168.5k` NPV | `$42.2k` AEC)
+* **Keywords:** Systems Engineering, Engineering Economics, Multidisciplinary Logistics, NPV ($168.5k – $1.09M)
 * **Summary:** Modeled an end-to-end 130-vehicle electric scooter rollout for Cal State East Bay across 10 interconnected workbook sheets. Evaluated a hybrid revenue structure (`$180/yr` opt-in fee + `$0.50/mile` monthly usage fee) at 12% student adoption (864 users), achieving a verified **`$168,525.43` 5-Year NPV** and **`$42,208.28` AEC** with Year 3 payback and a 2D sensitivity range spanning **`$52,913` to `$1,094,688`**.
 
 ### 2. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
-* **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (`0.0091s` on $100 \times 100$)
+* **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (0.0091s on 100x100)
 * **Summary:** Built a modular MATLAB solver from scratch for bipartite matching and assignment problems using Assembly-inspired binary bit-flipping masks, custom tie-breaker heuristics, and $\theta$-matrix adjustments. Solves $100 \times 100$ matrices in **9.1 ms** with verified global optimality against MATLAB's `matchpairs()`.
 
 ### 3. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
