@@ -11,7 +11,7 @@ Welcome to my website! I built this website to showcase some fun projects I have
 
 ---
 
-## Core Technical Skills
+## Core Technical Skills Showcased
 
 * **Systems Engineering & Economics:** Cash Flow Analysis (NPV, AEC, MARR), Equipment Replacement Analysis, Sensitivity Modeling, Fleet & Infrastructure Planning.
 * **Operations Research & Optimization:** Linear Programming, Assignment Problems (Hungarian Method), Network Planning, Logical Matrix Modeling.

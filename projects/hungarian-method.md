@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hungarian Method Optimization Algorithm - Custom MATLAB Solver
-logo: /assets/images/hungarian_100x100_benchmark.png
+logo: /assets/images/hungarian_sidebar_logo.png
 ---
 
 # Hungarian Method Optimization Algorithm
