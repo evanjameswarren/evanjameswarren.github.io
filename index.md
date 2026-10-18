@@ -44,6 +44,9 @@ Welcome to my website! I built this website to showcase some projects I have wor
 ### [Automated Material Stress-Strain Curve Analyzer](./projects/stress-strain-analysis.md)
 * MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
 
+### [1045 Annealed Steel Microstructure & Phase Analysis](./projects/grain-boundaries.md)
+* Engineering Materials lab analyzing a 40x etched micrograph of 1045 annealed steel in MATLAB using grayscale intensity conversion and Otsu thresholding (`182`) to measure pearlite phase fraction (**53.92%** vs. **57.22%** theoretical Lever Rule).
+
 ### [Multivariable Calculus Vector Field Visualizations](./projects/calc3-vector-fields.md)
 * Interactive MATLAB 3D visualization learning aid for Calculus 3 surfaces, vector fields, and symbolic normal vectors.
 
