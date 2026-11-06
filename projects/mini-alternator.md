@@ -1,17 +1,18 @@
 ---
 layout: default
-title: Mini-Alternator Differential Dynamic System & Electromechanical Modeling
+title: "[IN PROGRESS] Mini-Alternator Differential Dynamic System & Electromechanical Modeling"
 logo: /assets/images/alternator_cad_3d.png
 ---
 
-# Mini-Alternator Differential Dynamic System & Electromechanical Modeling
+# **[IN PROGRESS]** Mini-Alternator Differential Dynamic System & Electromechanical Modeling
 
+**Course:** Differential Systems / Mechatronics  
 **Domain:** Differential Systems & Mechatronics | Analytical Dynamics | CAD / Prototyping  
 **Tools & Software:** MATLAB, AutoCAD (3D Revolve & Parametric Drafting), First-Order Differential Equations, 3D Printing  
-**Project Collaborators:** Evan Warren, Julian Muñoz  
-**Project Status:** In Progress (Analytical Modeling, MATLAB Dynamics & AutoCAD Design Complete; Rotor Joint Modeling & 3D Fabrication Underway)
+**Project Partner:** Julian Muñoz  
+**Status:** **[IN PROGRESS]** (Analytical Modeling, MATLAB Dynamics & AutoCAD Design Complete; Rotor Joint Modeling & 3D Fabrication Underway)
 
-> **Project Overview & Objectives:** Designing, analytically modeling, and 3D printing a miniature, gravity-driven coreless permanent magnet alternator. A falling counterweight ($m = 5\text{ g}$) unwinds a tether wrapped around a precision spool rotor, accelerating the rotor around a stationary central coil. As the rotor spins, electromagnetic induction generates an AC current while the resulting Lorentz counter-torque acts as a dynamic magnetic brake. The electromechanical system is governed by a 1st-order linear ordinary differential equation (ODE), causing the rotor to settle toward a terminal angular velocity.
+> **Project Overview & Objectives:** The assignment for this project was to mathematically model a physical differential system. Project partner Julian and I chose to mathematically model an induced electrical current over time. Through understanding basic principles in dynamics and electromagnetism, we decided to design a cylindrical device with embedded diametrically polarized magnets, driven by a small falling mass from a lab countertop. We mathematically solve for the current and solve for the time of mass impact with the ground, then design the physical specs of the project attempting to achieve the greatest amount of peak current convergence to avoid a pure linear system. Once the physical experiment is built and data is collected, we will compare our experimental readings to the mathematical model.
 
 ### Project Source Files & Models
 * [📥 Download `InducedCurrent.m` (MATLAB Dynamic Simulation & Kinematics Script)](https://github.com/evanjameswarren/evanjameswarren.github.io/raw/main/Induced%20Current/InducedCurrent.m)
@@ -85,33 +86,67 @@ The analytical expressions were modeled in [`InducedCurrent.m`](https://github.c
 ### MATLAB Dynamic Code (`InducedCurrent.m`)
 
 ```matlab
-clear; clc; clf;
+clear;clc;clf;
 
-t = linspace(0, 3, 10000);
-meters = 0.0254; 
+t = linspace(0,3,10000);
 
-% Experimental hardware parameters
-m = 0.005;          % Driving mass (kg)
-id = 0.25;          % Magnet inner diameter (inches)
-od = 1.00;          % Magnet outer diameter (inches)
-Deff = (id + od) * 0.5 * meters; % Effective torque diameter (m)
-g = 9.8;            % Gravity (m/s^2)
-r = 16.7 / 1000;    % Spool radius (m)
-B = 0.7;            % Remanent field (Tesla)
-L = 0.5 * meters;   % Magnet stack length (m)
-M = 3e-6;           % Estimated rotor moment of inertia (kg*m^2)
-N = 20;             % Stator coil turns
-R = 0.02567 * 1 * N;% AWG 24 wire loop resistance (ohms)
 
-% Analytical current & kinematics equations
-I = @(t) (2*m*g*r / (N*B*Deff*L)) * (1 - exp(-t * ((N*B*Deff*L)^2) / (M*R*4)));
-Tm = m * g * r;     % Applied drive torque
-k = ((N*L*B*Deff)^2) / (4*R); % Damping constant
-y = @(t) (r*Tm/k) * (t + (M/k)*(exp(-t*(k/M)) - 1)); % Drop distance
+meters = 0.0254; % meters per inch conversion
 
-% Solving for time when mass reaches floor (h = 1m)
+m = .005; % driving force mass kg
+
+
+id = 1/4; % Magnet inner diameter in inches
+od= 1; % magnet outer diameter in inches
+Deff = (id+od)*.5; % effective magnetic torque diameter
+
+g = 9.8; % Gravity (meters/s^2)
+r = 16.7/1000; % Radius of cylinder design in (meters)
+B = 0.7; % magnetic flux density of magnets (Teslas) 
+L = .5 * meters; % depth of magnets (meters) (3 inches)
+
+D = Deff*meters; % effective magnetic torque diameter (meters)
+M = 3*10^(-6); % moment of inertia of cylinder design (kg/meters^2) *** this is an estimate ** 
+N = 20; %  number of wire loops
+R = 0.02567*1*N; % resistence in (ohms) of wire 1 ft wire AWG 24 magnet wire * 1.5 per loop * (N) number of loops 
+
+
+I = @(t) (2*m*g*r/(N*B*D*L))*(1-exp(-t*((N*B*D*L)^2)/(M*R*4)));
+
+
+Tm = m*g*r; % drive torque
+h = 1; % estimated table height
+k = ((N*L*B*D)^2)/(4*R); %simplifying constant
+
+
+y = @(t) (r*Tm/k)*(t+(M/k)*(exp(-t*(k/M))-1)); % fall distance
+
 syms tmax positive
-t_max = double(solve(y(tmax) == 1, tmax));
+t_max = double(solve(y(tmax)==h,tmax)); % Solving for max time when driving mass hits the ground
+
+subplot(2,1,1)
+plot(t,I(t))
+
+xlabel("Seconds")
+ylabel("Ampres")
+title('$$I(t) = \frac{2mgr}{NBDL}\left(1 - e^{-t\frac{(NBDL)^2}{4MR}}\right)$$', 'Interpreter', 'latex', 'FontSize', 12);
+grid on
+hold on
+plot(t_max,I(t_max),".r")
+hold off
+k = ((N*L*B*D)^2)/(4*R); %simplifying constant
+y = @(t) (r*Tm/k)*(t+(M/k)*(exp(-t*(k/M))-1)); % fall distance
+
+subplot(2,1,2)
+plot(t,y(t))
+
+title('$$y(t) = \frac{4mgRr^2}{(NBDL)^2}\left(t + \frac{4MR}{(NBDL)^2}\left(e^{-t\frac{(NLBD)^2}{4RM}} - 1\right)\right)$$', 'Interpreter', 'latex', 'FontSize', 12)
+hold on
+xlabel("time")
+ylabel("Distance Falling")
+grid on
+plot(t_max,y(t_max),".r")
+hold off
 ```
 
 ---
@@ -120,9 +155,9 @@ t_max = double(solve(y(tmax) == 1, tmax));
 
 To house the diametrical ring magnets and ceramic bearings while allowing the pull-string to coil smoothly without slipping, a custom rotor was designed and modeled in AutoCAD (`CylinderModel 3D.dwg`):
 
-![AutoCAD 3D Revolved Rotor Solid](../assets/images/alternator_cad_3d.png)
+![AutoCAD 2D Dimensional Section](../assets/images/alternator_cad_2d_top.png)
 
-![AutoCAD 2D Dimensional Wireframe Section](../assets/images/alternator_cad_wireframe.png)
+![AutoCAD 2D Isometric Wireframe](../assets/images/alternator_cad_wireframe.png)
 
 ### Mechanical Design Constraints & Features:
 * **Non-Magnetic Ceramic Bearings:** Designed with twin press-fit pockets for **608CE Full Ceramic ($\text{ZrO}_2$)** bearings ($\varnothing 22\text{ mm} \times 7\text{ mm}$ width, $8\text{ mm}$ bore). Using non-metallic ceramic bearings eliminates parasitic magnetic cogging/eddy-current drag against the permanent magnets.
@@ -139,9 +174,15 @@ To house the diametrical ring magnets and ceramic bearings while allowing the pu
 * [x] **Mathematical Modeling:** First-principles Newtonian & Faraday ODE derivation complete.
 * [x] **Simulation:** MATLAB analytical solution and ground-impact solving verified.
 * [x] **CAD Architecture:** 2D cross-section and full 3D solid revolution completed.
+* [ ] **Tolerance Assurance & 3D Print Fits:** Verifying shrink/clearance tolerances for bearing and magnet press-fits.
 * [ ] **Split-Joint Lip Modeling:** Converting the monolithic rotor cross-section into two interlocking printable halves with a stepped alignment lip at $X = 24.18\text{ mm}$.
-* [ ] **Additive Manufacturing:** 3D printing both rotor shells in high-infill PETG/PLA.
-* [ ] **Benchtop Validation:** High-speed video frame-by-frame tachometry tracking $\omega(t)$ alongside oscilloscope/multimeter current capture during mass drop.
+* [ ] **AutoCAD Rig & Fixture Design:** Designing the support stands for the cylinder and the pulley wheel / upright stands for the falling mass guide line.
+* [ ] **Additive Manufacturing:** 3D printing all rotor halves and test stand components in high-infill PLA/PETG.
+* [ ] **Perform Experiment:** Collecting real physical data during mass drops and reading induced current with an oscilloscope to compare against the mathematical model.
+
+---
+
+> **AI Disclosure:** All physics derivations, mathematical modeling, CAD drawings, and MATLAB code were independently developed by the project team. Generative AI was used strictly for formatting LaTeX equation syntax in Markdown for web display.
 
 ---
 

@@ -42,8 +42,8 @@ Welcome to my website! I built this website to showcase some projects I have wor
 ### [Tractor Lifecycle Economic Replacement Analysis](./projects/tractor-replacement.md)
 * Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
 
-### [Mini-Alternator Differential Dynamic System & Electromechanical Modeling](./projects/mini-alternator.md)
-* Differential Systems & Mechatronics project (with Julian Muñoz) modeling a miniature gravity-driven alternator in MATLAB using 1st-order rotational ODEs with Lorentz counter-torque braking, paired with custom 3D AutoCAD rotor and ceramic bearing spool design.
+### [**[IN PROGRESS]** Mini-Alternator Differential Dynamic System & Electromechanical Modeling](./projects/mini-alternator.md)
+* Differential Systems & Mechatronics project (with project partner Julian Muñoz) mathematically modeling an induced current over time using 1st-order rotational ODEs with Lorentz counter-torque braking, paired with custom 3D AutoCAD rotor and ceramic bearing spool design.
 
 ### [Automated Material Stress-Strain Curve Analyzer](./projects/stress-strain-analysis.md)
 * MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
