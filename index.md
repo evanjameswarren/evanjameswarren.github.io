@@ -61,3 +61,7 @@ Welcome to my website! I built this website to showcase some projects I have wor
 
 * **GitHub:** [github.com/evanjameswarren](https://github.com/evanjameswarren)
 * **LinkedIn:** [linkedin.com/in/evan-warren-b161271b8](https://www.linkedin.com/in/evan-warren-b161271b8)
+
+---
+
+> **Authenticity & Technical Disclosure:** All engineering projects, mathematical models, CAD designs, and analytical code featured across this portfolio are authentic work developed independently by myself and my project teammates. Development and deployment of this website was meticulously co-created by myself with CLI software.
