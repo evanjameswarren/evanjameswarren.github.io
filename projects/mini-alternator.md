@@ -182,8 +182,4 @@ To house the diametrical ring magnets and ceramic bearings while allowing the pu
 
 ---
 
-> **AI Disclosure:** All physics derivations, mathematical modeling, CAD drawings, and MATLAB code were independently developed by the project team. Generative AI was used strictly for formatting LaTeX equation syntax in Markdown for web display.
-
----
-
 [← Back to Main Portfolio](../index.html)

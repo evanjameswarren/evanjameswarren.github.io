@@ -23,15 +23,19 @@ Welcome to my website! I built this website to showcase some projects I have wor
 
 ## Priority Projects
 
-### 1. [Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model](./projects/scooter-fleet.md)
+### 1. [**[IN PROGRESS]** Mini-Alternator Differential Dynamic System & Electromechanical Modeling](./projects/mini-alternator.md)
+* **Keywords:** Differential Systems, Mechatronics, Electromechanical Modeling, 1st-Order ODEs, AutoCAD 3D
+* **Summary:** Modeled and prototyped a gravity-driven coreless permanent magnet alternator (with project partner Julian Muñoz). Solved 1st-order rotational differential equations coupling Newtonian torque with Faraday induction and Lorentz counter-torque braking to analyze current convergence before ground impact, paired with custom 3D AutoCAD rotor design with ceramic bearing pockets.
+
+### 2. [Campus Micro-Mobility: E-Scooter Fleet Systems & Financial Model](./projects/scooter-fleet.md)
 * **Keywords:** Systems Engineering, Engineering Economics, Multidisciplinary Logistics, NPV ($168.5k – $1.09M)
 * **Summary:** Modeled an end-to-end 130-vehicle electric scooter rollout for Cal State East Bay across 10 interconnected workbook sheets. Evaluated a hybrid revenue structure (`$180/yr` opt-in fee + `$0.50/mile` monthly usage fee) at 12% student adoption (864 users), achieving a verified **`$168,525.43` 5-Year NPV** and **`$42,208.28` AEC** with Year 3 payback and a 2D sensitivity range spanning **`$52,913` to `$1,094,688`**.
 
-### 2. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
+### 3. [Hungarian Method Optimization Algorithm](./projects/hungarian-method.md)
 * **Keywords:** Operations Research, Combinatorial Optimization, Algorithm Design, MATLAB (0.0091s on 100x100)
 * **Summary:** Built a modular MATLAB solver from scratch for bipartite matching and assignment problems using Assembly-inspired binary bit-flipping masks, custom tie-breaker heuristics, and $\theta$-matrix adjustments. Solves $100 \times 100$ matrices in **9.1 ms** with verified global optimality against MATLAB's `matchpairs()`.
 
-### 3. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
+### 4. [Burton Custom X Snowboard Sales Forecasting Model](./projects/snowboard-forecast.md)
 * **Keywords:** Time Series Analysis, Multiplicative Holt-Winters, Inventory Optimization, MAPE (9%)
 * **Summary:** Developed a 9-year Holt-Winters exponential smoothing model (2017–2026) for Burton Custom X unit sales. Optimized level, trend, and seasonal parameters $(\alpha, \beta, \gamma)$ to achieve a **9% MAPE**, optimizing procurement lead-times and safety stock allocation.
 
@@ -41,9 +45,6 @@ Welcome to my website! I built this website to showcase some projects I have wor
 
 ### [Tractor Lifecycle Economic Replacement Analysis](./projects/tractor-replacement.md)
 * Engineering economics group study comparing a 2010 Case IH Magnum 215 vs. 2024 Magnum 250 across a 10-year lifecycle using custom transmission-hour salvage depreciation, 7-year MACRS tax shields, and $\pm 30\%$ sensitivity modeling.
-
-### [**[IN PROGRESS]** Mini-Alternator Differential Dynamic System & Electromechanical Modeling](./projects/mini-alternator.md)
-* Differential Systems & Mechatronics project (with project partner Julian Muñoz) mathematically modeling an induced current over time using 1st-order rotational ODEs with Lorentz counter-torque braking, paired with custom 3D AutoCAD rotor and ceramic bearing spool design.
 
 ### [Automated Material Stress-Strain Curve Analyzer](./projects/stress-strain-analysis.md)
 * MATLAB processing pipeline analyzing real experimental tensile machine data from an aluminum specimen to automatically compute and plot Young's Modulus ($E$), 0.2% Offset Yield Strength ($\sigma_y$), Ultimate Tensile Strength ($\sigma_t$), and Toughness.
